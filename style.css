@@ -1,0 +1,133 @@
+*{
+ font-family: "Roboto", sans-serif;
+ font-weight: 400;
+ font-style: normal; 
+ text-decoration: none; 
+}
+h1,h2,h3{
+font-family: "Electrolize", sans-serif;
+font-weight: 800;
+font-style: normal;
+color: rgb(12, 11, 11);
+}
+body{
+      margin: 10px 5px;
+}
+.nav{
+     
+      background-color: rgba(229, 208, 19, 0.877);
+      color: white;
+      
+      width: 99%;
+      display: flex;
+      justify-content: space-between;
+      /* position: fixed; */
+      border: 2px solid black;
+      
+      
+ }
+.Logo{
+      width: 80px;
+      height: 80px;
+    
+         
+}
+.nav-list{
+
+      display: flex;
+      justify-content: end;
+      margin: 0px;
+      height: 70px;
+      display: flex;
+  align-items: center;  
+  padding: 10px;
+}
+nav a{
+      color: white;
+      text-decoration: none;
+}
+.figlio{
+      list-style: none;
+     margin: 0px 30px;
+      width: 120px;
+     height: 30px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+  }
+
+.figlio:hover{
+      border-bottom: 3px solid rgb(10, 10, 10);
+      border-top: 3px solid red;
+      border-left: 3px dashed green;
+      border-right: 3px dashed green;
+}
+
+
+.intestazione{ 
+      background-color: #EEEDED;
+      border-radius: 30px;
+      margin-top: 60px;
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      text-transform: uppercase;
+      
+       }
+#evidenza{
+      margin-top: 25px;
+      text-transform: uppercase;
+     
+      text-align: center;
+}
+header a {
+      list-style: none;
+      color: rgb(93, 90, 90);
+}
+img{
+      width: 100%;
+      height: auto;
+}
+button{
+      background-color: black;
+      color: white;
+      border-radius: 50px;
+      padding: 5px;
+      text-transform: uppercase;
+}
+button:hover{
+background-color: yellow;
+border: 2px solid black;
+color: black;
+}
+section{
+      
+      height: 70vh;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     margin: 35px;
+}
+article{
+      background-color: rgba(128, 128, 128, 0.313);
+      border: 2px solid black;
+      border-radius: 15px;
+      width: 30%;
+      padding: 10px;
+      height: 90%;
+      position: relative;
+}
+.flex-article{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+}
+article a {
+      list-style: none;
+      color: white;
+}
+article a:hover{
+      color: black;
+}
